@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <title>망고플레이트 클론</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="black-screen"></div>
+    <header class="main-header">
+        <div>
+            <p class="title">솔직한 리뷰, 믿을 수 있는 평점!</p>
+            <div class="title">망고플레이트</div>
+            <form class="main-search">
+                <label for="search"><i class="fas fa-search"></i></label>
+                <input type="text" id="search" placeholder="지역,식당 또는 음식">
+                <button class="search-btn">검색</button>
+            </form>
+        </div>
+    </header>
+    <header class="Header Header-transparent">
+        <a href="#a"><div></div></a>        
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#a">EAT딜</a></li>
+                <li><a href="#a">맛집리스트</a></li>
+                <li><a href="#a">망고스토리</a></li>
+            </ul>
+        </nav>
+        
+        <nav class="sub-menu">
+            
+            <button class="mobile"><i class="fas fa-bars"></i></button>
+            <button><i class="fal fa-user"></i></button>
+            
+        </nav>
+        
+    </header>
+
+    <!-- 맛집 리스트 -->
+    <section class="list">
+        <div class="tasty-food-content">
+
+            <div class="sub-header">
+                <h2 class="title">믿고 보는 맛집 리스트</h2>
+                <a href="#a">리스트 더보기</a>
+            </div>
+            <button id="prev" class="navigation-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="next" class="navigation-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <div class="tasty-food-list">
+                <ul id="tasty-food-list" class="active">
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="tasty-food-list-2" class="active">
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="tasty-food-list-3" class="active">
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-content">
+                            <h2>아보카도 메뉴 맛집베스트 40곳</h2>
+                            <small>"아보카도가 주재료일 때 생기는 일!"</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="controls">
+                <button id="1"></button>
+                <button id="2"></button>
+                <button id="3"></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 맛집 스토리 -->
+    <section class="stroy">
+        <div class="tasty-food-content">
+            <div class="sub-header">
+                <h2 class="title">맛집스토리</h2>
+                <a href="#a">스토리 더보기</a>
+            </div>
+            <button id="prev" class="navigation-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="next" class="navigation-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <div class="tasty-food-story">
+                <ul id="tasty-food-story" class="tasty-food-story active">
+                    <li>
+                        <div class="stroy-content">
+                            <h2>편스토랑 방송맛집</h2>
+                            <small>신메뉴 개발을 위한 맛집투어!</small>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="stroy-content">
+                            <h2>편스토랑 방송맛집</h2>
+                            <small>신메뉴 개발을 위한 맛집투어!</small>
+                        </div>
+                    </li>
+                
+                
+                    <li>
+                        <div class="stroy-content">
+                            <h2>편스토랑 방송맛집</h2>
+                            <small>신메뉴 개발을 위한 맛집투어!</small>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="controls">
+                <button id="1"></button>
+                <button id="2"></button>
+                <button id="3"></button>
+            </div>
+        
+        </div>
+    </section>
+    <!-- 맛집 딜 -->
+    <section class="eat-deal">
+        <div class="tasty-food-content">
+            <div class="sub-header">
+                <h2 class="title">EAT딜을 판매중인 식당</h2>
+            </div>
+            <div class="tasty-food-eat-deal">
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+                <div class="eat-deal-content">
+                    <div class="eat-deal-img"></div>
+                    <p>JVL부대찌개</p>
+                    <span><span>송파/가락</span>-<span>탕/찌개/전골<span></span></span>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <footer>
+        <p>㈜ 망고플레이트<br>
+            서울특별시 서초구 강남대로99길 53, 6층 (잠원동, 삼우빌딩)<br>
+            대표이사: OH JOON HWAN(오준환)<br>
+            사업자 등록번호: 211-88-92374 [사업자정보확인]<br>
+            통신판매업 신고번호: 2014-서울강남-02615<br>
+            고객센터: 02-565-5988</p>
+        <p>© 2020 MangoPlate Co., Ltd. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
